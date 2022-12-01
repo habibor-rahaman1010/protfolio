@@ -1,9 +1,10 @@
-import Head from 'next/head'
+import Habib from './Component/Home'
 
-export default function Home() {
+
+export default function Index() {
   return (
     <div>
-     
+      <Habib/>
     </div>
   )
 }
