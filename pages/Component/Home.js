@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from "../../styles/Home.module.css"
 
 
 const Home = () => {
@@ -8,7 +9,7 @@ const Home = () => {
                 <title>Home</title>
             </Head>
 
-            <h1>Hello Programemr</h1>
+            <h1 className={styles.hello}>Hello Programemr</h1>
         </div>
     );
 }
