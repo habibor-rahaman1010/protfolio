@@ -1,18 +1,21 @@
 import Head from "next/head";
-import styles from "../../styles/Home.module.css"
-import Navbar from "./Share/Navbar";
+import Header from "./home/Header";
+import Navbar from "./share/Navbar";
+
 
 
 const Home = () => {
     return (
-        <div>
+        <div className="">
             <Head>
                 <title>Home</title>
             </Head>
 
             <Navbar/>
+            
+            <Header/>
+           
 
-            <h1 className={styles.hello}>Hello Programemr</h1>
         </div>
     );
 }
