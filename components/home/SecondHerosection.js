@@ -14,18 +14,28 @@ const SecondHerosection = () => {
                     <Image
                     className={"rounded-full object-cover"}
                     src={coding}
-                    width={500}
-                    height={550}
+                    width={450}
+                    height={450}
                     />
                         
                     </div>
 
-                    <div>
+                    <div className="mx-12">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        <span className="block py-2 text-slate-50 text-2xl">Hello i'm</span>
-                        <span className="block py-3 text-teal-500 text-4xl">Habibor Rahaman.</span>
-                        <span className="block py-5 text-teal-300 text-5xl">Full Stack Developer !</span>
+                        <span className="block py-3 text-teal-500 text-4xl">About Myself</span>
                         </h2>
+                        <span className="text-white text-lg">
+                        <p>Hi! I’m Habibor Rahaman (Habib). I’m extremely passionate about anything related to technology. Also deeply interested in design and visual art. My objective will be a good full-stack developer, I every day working hard every moment since to turn that passion into reality.</p>
+                        </span> <br/>
+
+                        <span className="text-white text-lg">
+                        <p>Hi! I’m Habibor Rahaman (Habib). I’m extremely passionate about anything related to technology. Also deeply interested in design and visual art. My objective will be a good full-stack developer, I every day working hard every moment since to turn that passion into reality.
+                        Skills: Skills: HTML | CSS | Bootstrap | Tailwind CSS | React Bootstrap | Material UI | React.js | React Native | JavaScript | TypeScript | Python | PHP | C | C++ | Node.js | Express.js | Next.js | Django | Fast API | Laravel | MongoDB | SQL lite | MySQL | PostgreSQL | GraphQL |
+                        </p>
+                        </span>
+
+
+
                         <div className="text-white mb-4">
                             <span className="inline-block p-4"><li>Web Developer</li></span>
                             <span className="inline-block p-4"><li>Programmer</li></span>

@@ -49,7 +49,7 @@ const HeoroSection = () => {
                     className={"rounded-full object-cover"}
                     src={pro}
                     width={500}
-                    height={550}
+                    height={500}
                 />
                         
                     </div>
