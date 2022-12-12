@@ -2,7 +2,7 @@ import Image from "next/image";
 import pro from "../../public/assets/images/profile.jpg";
 
 
-const Header = () => {
+const HeoroSection = () => {
     return (
         <div>
             <div className="bg-slate-800">
@@ -21,16 +21,19 @@ const Header = () => {
 
                         <div className="inline-flex rounded-md shadow">
                           
-                            <a className="inline-flex items-center justify-center rounded-md border border-transparent bg-teal-600 px-5 py-3 text-base font-medium text-white hover:bg-teal-700"
-                            href='https://i.ibb.co/Xt9WbT3/Resume-Habibor-Rahaman.jpg'
-                            download='Resume_Habibor_Rahaman'
+                            <a className="inline-flex items-center justify-center rounded-md border border-transparent
+                             bg-teal-600 px-5 py-3 text-base font-medium text-white hover:bg-teal-700
+                            cursor-pointer
+                            "
+                            href='https://drive.google.com/file/d/1IjC4w1Wydk3XWAf_Jd-JZg0JbzE46aVA/view?usp=share_link'
+                         
                             >
                             Get Resume
                             </a>
                             
                     
                         </div>
-                        <div className="ml-3 inline-flex rounded-md shadow">
+                        <div className="ml-3 inline-flex rounded-md shadow ">
                             <a
                             href="#"
                             className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
@@ -56,4 +59,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default HeoroSection;

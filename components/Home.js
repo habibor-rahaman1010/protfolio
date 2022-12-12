@@ -1,22 +1,34 @@
 import Head from "next/head";
-import Header from "./home/Header";
+import HeoroSection from "./home/HeoroSection";
 import Navbar from "./share/Navbar";
+import Footer from "./share/Footer";
+import styles from "../styles/Home.module.css"
+import SecondHerosection from "./home/SecondHerosection";
+
+
 
 
 
 const Home = () => {
     return (
-        <div className="">
+        <>
             <Head>
                 <title>Home</title>
             </Head>
+            <header>
+                <Navbar/>
+            </header>
 
-            <Navbar/>
-            
-            <Header/>
-           
+            <main className={styles.main}>
+                <HeoroSection/>
+                <SecondHerosection/>
+            </main>
 
-        </div>
+            <footer className={styles.footer}>
+                <Footer/>
+            </footer>
+        </>
+       
     );
 }
 

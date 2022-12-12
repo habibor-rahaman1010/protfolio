@@ -1,8 +1,58 @@
 
+.language ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .language ul li {
+    position: relative;
+    background-color: #252930;
+    margin-right: 15px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 900;
+    border-radius: 10px;
+    list-style-type: none;
+  }
+  
+  .language ul li p {
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    color: aliceblue;
+  }
+  
+  .language ul li .fluency {
+    position: absolute;
+    content: "";
+    left: 0;
+    background-color: #00cf5d;
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+  .footerTxt{
+    color: white;
+    text-align: center;
+  }
+   /* for was footer */
 
-.hello{
-    color: red;
-}
-.cust{
-    background-color: red;
-}
+  /* .main{
+    width: 100vw;
+    position: relative;
+    min-height: 100vh;
+  }
+  .footer{
+    position: absolute;
+    width: auto;
+    bottom: 0;
+    width: 100%;
+  } */
+
+  .main{
+    width: 100vw;
+    min-height: calc(100vh - 211px - 58px);
+  }
+  .footer{
+    margin-bottom: 20px;
+  }
+  
