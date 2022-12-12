@@ -1,10 +1,10 @@
 import Image from "next/image";
 import pro from "../../public/assets/images/profile.jpg";
-// import pd from "../../public/assets/images/Resume_Habibor_Rahaman.pdf";
+
 
 const Header = () => {
     return (
-        <div >
+        <div>
             <div className="bg-slate-800">
                 <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
                     <div>
@@ -20,12 +20,15 @@ const Header = () => {
                         </div>
 
                         <div className="inline-flex rounded-md shadow">
-                            <a
-                            href="../../public/assets/images/Resume_Habibor_Rahaman.pdf"
-                            className="inline-flex items-center justify-center rounded-md border border-transparent bg-teal-600 px-5 py-3 text-base font-medium text-white hover:bg-teal-700"
+                          
+                            <a className="inline-flex items-center justify-center rounded-md border border-transparent bg-teal-600 px-5 py-3 text-base font-medium text-white hover:bg-teal-700"
+                            href='https://i.ibb.co/Xt9WbT3/Resume-Habibor-Rahaman.jpg'
+                            download='Resume_Habibor_Rahaman'
                             >
                             Get Resume
                             </a>
+                            
+                    
                         </div>
                         <div className="ml-3 inline-flex rounded-md shadow">
                             <a
