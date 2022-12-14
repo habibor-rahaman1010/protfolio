@@ -20,6 +20,9 @@ a {
   box-sizing: border-box;
   
 }
+svg {
+  margin-left: 8px;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
