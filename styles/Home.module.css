@@ -56,3 +56,69 @@
     margin-bottom: 20px;
   }
   
+
+
+  /* rifat style code  */
+
+  .container {
+    padding: 0 2rem;
+  }
+  
+  .main {
+    min-height: 100%;
+    padding: 4rem 0 0;
+    color: white !important;
+  }
+  
+  
+  .footerTxt {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 1rem 0 1rem;
+  }
+  
+  .skillsWrapper {
+    width: 100%;
+    background-color: #ddd;
+    margin: 1rem 0;
+    border-radius: 15px !important;
+  }
+  
+  .skillsName {
+    text-align: left;
+    padding-left: 10px;
+    margin: 10px 0 8px !important;
+    transition: width .6s ease;
+    font-size: 1.2em;
+    font-family: monospace;
+    letter-spacing: 1px;
+  }
+ 
+.projects{
+  text-align: center;
+  margin-top: 50px;
+}
+
+  
+  /* For Responsiveness */
+  @media screen and (max-width: 599px) {
+    .container {
+      padding: 0;
+    }
+  
+    .marginBottomInMobile {
+      margin-bottom: 2rem !important;
+    }
+
+  
+    .skillsContainer {
+      padding: 40px 20px 10px;
+    }
+  
+  
+    .footer {
+      padding-bottom: 1rem;
+    }
+  }
+  

@@ -6,7 +6,7 @@ const SecondHerosection = () => {
     return (
         <div>
             <div className="bg-slate-800">
-                <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+                <div className="lg:mx-auto max-w-7xl px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
                    
 
 
@@ -29,8 +29,8 @@ const SecondHerosection = () => {
                         </span> <br/>
 
                         <span className="text-white text-lg">
-                        <p>Hi! I’m Habibor Rahaman (Habib). I’m extremely passionate about anything related to technology. Also deeply interested in design and visual art. My objective will be a good full-stack developer, I every day working hard every moment since to turn that passion into reality.
-                        Skills: Skills: HTML | CSS | Bootstrap | Tailwind CSS | React Bootstrap | Material UI | React.js | React Native | JavaScript | TypeScript | Python | PHP | C | C++ | Node.js | Express.js | Next.js | Django | Fast API | Laravel | MongoDB | SQL lite | MySQL | PostgreSQL | GraphQL |
+                        <p>
+                        Skills : HTML | CSS | Bootstrap | Tailwind CSS | React Bootstrap | Material UI | React.js | Redux | Redux Toolkit | Redux Thunk | JavaScript | Node.js | Express.js | Next.js | MongoDB | SQL lite | MySQL
                         </p>
                         </span>
 
@@ -49,7 +49,7 @@ const SecondHerosection = () => {
                             cursor-pointer
                             "
                             href='https://drive.google.com/file/d/1IjC4w1Wydk3XWAf_Jd-JZg0JbzE46aVA/view?usp=share_link'
-                         
+                            target={'_blank'}
                             >
                             Get Resume
                             </a>
