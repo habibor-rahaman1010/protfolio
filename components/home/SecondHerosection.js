@@ -28,7 +28,7 @@ const SecondHerosection = () => {
                         <p>Hi! I’m Habibor Rahaman (Habib). I’m extremely passionate about anything related to technology. Also deeply interested in design and visual art. My objective will be a good full-stack developer, I every day working hard every moment since to turn that passion into reality.</p>
                         </span> <br/>
 
-                        <span className="text-white text-lg">
+                        <span className="text-white lg:text-lg">
                         <p>
                         Skills : HTML | CSS | Bootstrap | Tailwind CSS | React Bootstrap | Material UI | React.js | Redux | Redux Toolkit | Redux Thunk | JavaScript | Node.js | Express.js | Next.js | MongoDB | SQL lite | MySQL
                         </p>

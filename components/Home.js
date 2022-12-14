@@ -6,6 +6,7 @@ import styles from "../styles/Home.module.css"
 import SecondHerosection from "./home/SecondHerosection";
 import Skils from "./skils/Skils";
 import skills from '../public/data/skils';
+import Project from "./project/Project";
 
 
 export const getStaticProps = async () => {
@@ -46,6 +47,7 @@ const Home = () => {
                 <HeoroSection/>
                 <SecondHerosection/>
                 <Skils skills={skills}/>
+                <Project/>
                 
             </main>
 
